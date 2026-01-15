@@ -1,0 +1,9 @@
+[process.repo]
+enabled = true
+require_branch_protection = true
+require_codeowners = true
+
+[process.repo.branch_protection]
+branch = "main"
+required_reviews = 1
+dismiss_stale_reviews = true
