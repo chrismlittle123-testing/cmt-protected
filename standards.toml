@@ -1,2 +1,7 @@
 [metadata]
-tier = "prototype"
+tier = "production"
+type = "library"
+
+[process.repo]
+enabled = true
+require_branch_protection = true
